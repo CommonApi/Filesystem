@@ -1,0 +1,17 @@
+{
+    "name": "api/filesystem",
+    "description": "Common API for Filesystem",
+    "keywords": ["api", "CommonApi", "filesystem"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AmyStephen",
+            "homepage": "http://Molajo.org/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Api\\Filesystem\\": ""
+        }
+    }
+}
