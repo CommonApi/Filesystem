@@ -1,17 +1,24 @@
 {
-    "name": "api/filesystem",
-    "description": "Common API for Filesystem",
+    "name": "commonapi/filesystem",
+    "description": "Common Filesystem Api Interface",
     "keywords": ["api", "CommonApi", "filesystem"],
+    "homepage": "https://github.com/CommonApi/Filesystem",
+    "type": "api",
     "license": "MIT",
     "authors": [
         {
             "name": "AmyStephen",
-            "homepage": "http://Molajo.org/"
+            "filesystem": "AmyStephen@gmail.com",
+            "homepage": "http://Molajo.org"
         }
     ],
+    "require": {
+        "php": ">=5.3.10",
+        "commonapi/exception": ">=0.1"
+    },
     "autoload": {
         "psr-0": {
-            "Api\\Filesystem\\": ""
+            "CommonApi\\Filesystem\\": ""
         }
     }
 }
