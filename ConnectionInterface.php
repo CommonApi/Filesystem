@@ -24,7 +24,7 @@ interface ConnectionInterface
      * @param   array $options
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function connect($options = array());
 
@@ -32,7 +32,7 @@ interface ConnectionInterface
      * Close the Connection
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function close();
 }

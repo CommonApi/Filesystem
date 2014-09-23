@@ -24,7 +24,7 @@ interface FilesystemInterface
      * @param   string $path
      *
      * @return  bool
-     * @since   1.0
+     * @since   1.0.0
      */
     public function exists($path);
 
@@ -34,7 +34,7 @@ interface FilesystemInterface
      * @param   string $path
      *
      * @return  mixed
-     * @since   1.0
+     * @since   1.0.0
      */
     public function getMetadata($path);
 
@@ -44,7 +44,7 @@ interface FilesystemInterface
      * @param   string $path
      *
      * @return  null|string
-     * @since   1.0
+     * @since   1.0.0
      */
     public function read($path);
 
@@ -61,7 +61,7 @@ interface FilesystemInterface
      * @param   null   $filename_mask
      *
      * @return  mixed
-     * @since   1.0
+     * @since   1.0.0
      */
     public function getList(
         $path,
@@ -82,7 +82,7 @@ interface FilesystemInterface
      * @param   bool   $truncate (file, only)
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function write($path, $data = '', $replace = true, $append = false, $truncate = false);
 
@@ -93,7 +93,7 @@ interface FilesystemInterface
      * @param   bool   $recursive
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function delete($path, $recursive = false);
 
@@ -108,7 +108,7 @@ interface FilesystemInterface
      * @param   string $target_handler
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function copy(
         $path,
@@ -129,7 +129,7 @@ interface FilesystemInterface
      * @param   string $target_handler
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function move(
         $path,
@@ -146,7 +146,7 @@ interface FilesystemInterface
      * @param   string $new_name
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function rename($path, $new_name);
 
@@ -158,7 +158,7 @@ interface FilesystemInterface
      * @param   bool   $recursive
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function changeOwner($path, $user_name, $recursive = false);
 
@@ -170,7 +170,7 @@ interface FilesystemInterface
      * @param   bool   $recursive
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function changeGroup($path, $group_id, $recursive = false);
 
@@ -182,7 +182,7 @@ interface FilesystemInterface
      * @param   bool   $recursive
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function changePermission($path, $permission, $recursive = false);
 
@@ -195,7 +195,7 @@ interface FilesystemInterface
      * @param   bool   $recursive
      *
      * @return  $this
-     * @since   1.0
+     * @since   1.0.0
      */
     public function touch($path, $modification_time = null, $access_time = null, $recursive = false);
 }
