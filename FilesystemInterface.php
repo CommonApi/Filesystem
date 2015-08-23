@@ -3,7 +3,7 @@
  * Filesystem Adapter Interface
  *
  * @package    Filesystem
- * @copyright  2014 Amy Stephen. All rights reserved.
+ * @copyright  2014-2015 Amy Stephen. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  */
 namespace CommonApi\Filesystem;
@@ -12,7 +12,7 @@ namespace CommonApi\Filesystem;
  * Filesystem Adapter Interface
  *
  * @package    Filesystem
- * @copyright  2014 Amy Stephen. All rights reserved.
+ * @copyright  2014-2015 Amy Stephen. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @since      1.0
  */
